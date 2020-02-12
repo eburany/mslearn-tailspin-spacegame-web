@@ -20,6 +20,6 @@ steps:
   inputs:
     command: publish
     publishDirectory: '$(Build.ArtifactStagingDirectory)'
-    vstsFeedPublish: 'Test'
+    vstsFeedPublish: 'Test2'
     vstsFeedPackagePublish: 'TestPackage'
     packagePublishDescription: '<Package description>'
