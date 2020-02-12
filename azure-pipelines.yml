@@ -20,6 +20,6 @@ steps:
   inputs:
     command: publish
     publishDirectory: '$(Build.ArtifactStagingDirectory)'
-    vstsFeedPublish: 'Test2'
+    vstsFeedPublish: '[SpaceGame - web - Pipeline]/Test2'
     vstsFeedPackagePublish: 'TestPackage'
     packagePublishDescription: 'package'
