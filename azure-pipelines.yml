@@ -18,8 +18,10 @@ steps:
 - task: UniversalPackages@0
   displayName: Universal Publish
   inputs:
-    command: publish
+    command: 'publish'
     publishDirectory: '$(Build.ArtifactStagingDirectory)'
-    vstsFeedPublish: 'Test2'
-    vstsFeedPackagePublish: 'TestPackage'
+    feedsToUsePublish: 'internal'
+    vstsFeedPublish: '288cc4c8-ea99-4458-8549-b1e593965d27/c799fd2d-5d83-43dc-b53e-5c4902bfb6cd'
+    vstsFeedPackagePublish: 'testpackage'
+    versionOption: 'patch'
     packagePublishDescription: 'package'
